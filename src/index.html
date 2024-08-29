@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+   <header>
+   <div class=" container mx-auto py-8 px-2 mt-5 "  >
+    <div class="grid grid-cols-3 items-center">
+    <div >
+       <img src="../img/watch.webp" alt="watch" >
+    </div>
+    <div class="-ml-64 " >
+      <ul class=" hidden lg:flex  items-center gap-7  text-xl   ">
+        <li class=" hover:text-green-300"><a href="#">Home</a></li>
+        <li class=" hover:text-green-300"><a href="#">About</a></li>
+        <li class=" hover:text-green-300"><a href="#">Destination</a></li>
+        <li class=" hover:text-green-300 hover:block "><a href="#">Pages</a>
+          <ul class="w-full absolute z-50 hidden  hover:block ">
+            <li class="block"><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+          </ul>
+        </li>
+        <li class=" hover:text-green-300"><a href="#">Blog</a></li>
+        <li class=" hover:text-green-300"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+        <div class=" flex gap-x-16 ml-6 ">
+       <div class=" hidden lg:flex ">
+        <svg  width="22px" height="22px" viewBox="0 0 24 24" fill="red" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C14.1588 20.0658 10.9183 19.5829 7.6677 16.3323C4.41713 13.0817 3.93421 9.84122 4.00655 7.93309C4.04952 6.7996 4.7008 5.77423 5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617Z" stroke="red" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+        <p class="text-lg">10(256)-928 256</p>
+       </div>
+
+       <div class=" hidden lg:flex gap-4 ">
+       <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7.90001C11.1891 7.90001 10.3964 8.14048 9.72218 8.59099C9.04794 9.0415 8.52243 9.68184 8.21211 10.431C7.90179 11.1802 7.8206 12.0046 7.9788 12.7999C8.13699 13.5952 8.52748 14.3258 9.10088 14.8992C9.67427 15.4725 10.4048 15.863 11.2001 16.0212C11.9955 16.1794 12.8198 16.0982 13.569 15.7879C14.3182 15.4776 14.9585 14.9521 15.409 14.2779C15.8596 13.6036 16.1 12.8109 16.1 12C16.1013 11.4612 15.9962 10.9275 15.7906 10.4295C15.585 9.93142 15.2831 9.47892 14.9021 9.09794C14.5211 8.71695 14.0686 8.415 13.5706 8.20942C13.0725 8.00385 12.5388 7.8987 12 7.90001ZM12 14.67C11.4719 14.67 10.9557 14.5134 10.5166 14.22C10.0776 13.9267 9.73534 13.5097 9.53326 13.0218C9.33117 12.5339 9.2783 11.9971 9.38132 11.4791C9.48434 10.9612 9.73863 10.4854 10.112 10.112C10.4854 9.73863 10.9612 9.48434 11.4791 9.38132C11.9971 9.2783 12.5339 9.33117 13.0218 9.53326C13.5097 9.73534 13.9267 10.0776 14.22 10.5166C14.5134 10.9557 14.67 11.4719 14.67 12C14.67 12.7081 14.3887 13.3873 13.888 13.888C13.3873 14.3887 12.7081 14.67 12 14.67ZM17.23 7.73001C17.23 7.9278 17.1714 8.12114 17.0615 8.28558C16.9516 8.45003 16.7954 8.57821 16.6127 8.65389C16.43 8.72958 16.2289 8.74938 16.0349 8.7108C15.8409 8.67221 15.6628 8.57697 15.5229 8.43712C15.3831 8.29727 15.2878 8.11909 15.2492 7.92511C15.2106 7.73112 15.2304 7.53006 15.3061 7.34733C15.3818 7.16461 15.51 7.00843 15.6744 6.89855C15.8389 6.78866 16.0322 6.73001 16.23 6.73001C16.4952 6.73001 16.7496 6.83537 16.9371 7.02291C17.1247 7.21044 17.23 7.4648 17.23 7.73001ZM19.94 8.73001C19.9691 7.48684 19.5054 6.28261 18.65 5.38001C17.7522 4.5137 16.5474 4.03897 15.3 4.06001C14 4.00001 10 4.00001 8.70001 4.06001C7.45722 4.0331 6.25379 4.49652 5.35001 5.35001C4.49465 6.25261 4.03093 7.45684 4.06001 8.70001C4.00001 10 4.00001 14 4.06001 15.3C4.03093 16.5432 4.49465 17.7474 5.35001 18.65C6.25379 19.5035 7.45722 19.9669 8.70001 19.94C10.02 20.02 13.98 20.02 15.3 19.94C16.5432 19.9691 17.7474 19.5054 18.65 18.65C19.5054 17.7474 19.9691 16.5432 19.94 15.3C20 14 20 10 19.94 8.70001V8.73001ZM18.24 16.73C18.1042 17.074 17.8993 17.3863 17.6378 17.6478C17.3763 17.9093 17.064 18.1142 16.72 18.25C15.1676 18.5639 13.5806 18.6715 12 18.57C10.4228 18.6716 8.83902 18.564 7.29001 18.25C6.94608 18.1142 6.63369 17.9093 6.37223 17.6478C6.11076 17.3863 5.90579 17.074 5.77001 16.73C5.35001 15.67 5.44001 13.17 5.44001 12.01C5.44001 10.85 5.35001 8.34001 5.77001 7.29001C5.90196 6.94268 6.10547 6.62698 6.36733 6.36339C6.62919 6.09981 6.94355 5.89423 7.29001 5.76001C8.83902 5.44599 10.4228 5.33839 12 5.44001C13.5806 5.33856 15.1676 5.44616 16.72 5.76001C17.064 5.89579 17.3763 6.10076 17.6378 6.36223C17.8993 6.62369 18.1042 6.93608 18.24 7.28001C18.66 8.34001 18.56 10.84 18.56 12C18.56 13.16 18.66 15.67 18.24 16.72V16.73Z" fill="gray"></path> </g></svg>
+       <svg fill="gray" width="26px" height="24px" viewBox="-3.5 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M3.335 6.498a1.152 1.152 0 0 1-1.248 1.148h-.015a1.15 1.15 0 1 1 .03-2.295 1.147 1.147 0 0 1 1.233 1.147zM.982 8.553h2.206v6.637H.982zm10.165 2.83v3.807H8.941v-3.55c0-.893-.319-1.502-1.12-1.502a1.21 1.21 0 0 0-1.13.807 1.516 1.516 0 0 0-.073.538v3.708H4.41s.03-6.017 0-6.639h2.21v.94l-.016.023h.015V9.49a2.19 2.19 0 0 1 1.989-1.095c1.451 0 2.54.949 2.54 2.988z"></path></g></svg>
+       <svg fill="gray" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="m1416.013 791.915-30.91 225.617h-371.252v789.66H788.234v-789.66H449.808V791.915h338.426V585.137c0-286.871 176.207-472.329 449.09-472.329 116.87 0 189.744 6.205 231.822 11.845l-3.272 213.66-173.5.338c-4.737-.451-117.771-9.25-199.332 65.655-52.568 48.169-79.191 117.433-79.191 205.65v181.96h402.162Zm-247.276-304.018c44.446-41.401 113.71-36.889 118.787-36.663l289.467-.113 6.204-417.504-43.544-10.717C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l61.932-451.233H1126.66v-69.152c0-54.937 14.214-96 42.078-122.058Z" fill-rule="evenodd"></path> </g></svg>
+      <svg width="30px" height="30px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.78353 7.74971C10.1976 7.73814 10.5239 7.39311 10.5123 6.97906C10.5007 6.565 10.1557 6.23873 9.74164 6.25029L9.78353 7.74971ZM5.50158 11.5L6.25132 11.52C6.25167 11.5067 6.25167 11.4933 6.25132 11.48L5.50158 11.5ZM9.76258 16L9.74164 16.7497C9.7556 16.7501 9.76957 16.7501 9.78353 16.7497L9.76258 16ZM14.0236 11.5L14.7733 11.48C14.7625 11.0737 14.43 10.75 14.0236 10.75V11.5ZM9.76258 10.75C9.34837 10.75 9.01258 11.0858 9.01258 11.5C9.01258 11.9142 9.34837 12.25 9.76258 12.25V10.75ZM19.3276 9.679C19.7418 9.679 20.0776 9.34321 20.0776 8.929C20.0776 8.51479 19.7418 8.179 19.3276 8.179V9.679ZM17.5016 8.179C17.0874 8.179 16.7516 8.51479 16.7516 8.929C16.7516 9.34321 17.0874 9.679 17.5016 9.679V8.179ZM17.5016 9.679C17.9158 9.679 18.2516 9.34321 18.2516 8.929C18.2516 8.51479 17.9158 8.179 17.5016 8.179V9.679ZM15.6756 8.179C15.2614 8.179 14.9256 8.51479 14.9256 8.929C14.9256 9.34321 15.2614 9.679 15.6756 9.679V8.179ZM16.7516 8.929C16.7516 9.34321 17.0874 9.679 17.5016 9.679C17.9158 9.679 18.2516 9.34321 18.2516 8.929H16.7516ZM18.2516 7C18.2516 6.58579 17.9158 6.25 17.5016 6.25C17.0874 6.25 16.7516 6.58579 16.7516 7H18.2516ZM18.2516 8.929C18.2516 8.51479 17.9158 8.179 17.5016 8.179C17.0874 8.179 16.7516 8.51479 16.7516 8.929H18.2516ZM16.7516 10.857C16.7516 11.2712 17.0874 11.607 17.5016 11.607C17.9158 11.607 18.2516 11.2712 18.2516 10.857H16.7516ZM9.74164 6.25029C6.90939 6.32941 4.67644 8.68761 4.75185 11.52L6.25132 11.48C6.19794 9.47505 7.77861 7.80571 9.78353 7.74971L9.74164 6.25029ZM4.75185 11.48C4.67644 14.3124 6.90939 16.6706 9.74164 16.7497L9.78353 15.2503C7.77861 15.1943 6.19794 13.5249 6.25132 11.52L4.75185 11.48ZM9.78353 16.7497C12.6158 16.6706 14.8487 14.3124 14.7733 11.48L13.2738 11.52C13.3272 13.5249 11.7466 15.1943 9.74164 15.2503L9.78353 16.7497ZM14.0236 10.75H9.76258V12.25H14.0236V10.75ZM19.3276 8.179H17.5016V9.679H19.3276V8.179ZM17.5016 8.179H15.6756V9.679H17.5016V8.179ZM18.2516 8.929V7H16.7516V8.929H18.2516ZM16.7516 8.929V10.857H18.2516V8.929H16.7516Z" fill="gray"></path> </g></svg>
+      </div>
+        <div class="lg:hidden">
+          <div  class=" -mt-2 bg-red-500 absolute z-50 -top-1.5 p-10">
+            <i class="bi bi-search text-3xl  text-center "></i>
+            </div>  
+    </div>
+   </div>
+   </div>
+   </div>
+   <div class="bg-black container mx-auto flex justify-end lg:hidden" >
+    <span class="text-white text-xl p-2">MENU</span>
+    <svg width="35px" height="37px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 6.00067L21 6.00139M8 12.0007L21 12.0015M8 18.0007L21 18.0015M3.5 6H3.51M3.5 12H3.51M3.5 18H3.51M4 6C4 6.27614 3.77614 6.5 3.5 6.5C3.22386 6.5 3 6.27614 3 6C3 5.72386 3.22386 5.5 3.5 5.5C3.77614 5.5 4 5.72386 4 6ZM4 12C4 12.2761 3.77614 12.5 3.5 12.5C3.22386 12.5 3 12.2761 3 12C3 11.7239 3.22386 11.5 3.5 11.5C3.77614 11.5 4 11.7239 4 12ZM4 18C4 18.2761 3.77614 18.5 3.5 18.5C3.22386 18.5 3 18.2761 3 18C3 17.7239 3.22386 17.5 3.5 17.5C3.77614 17.5 4 17.7239 4 18Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+  </div>
+   </header>
+ 
+
+   <main>
+    <section class="mt-10 ">
+      <img class="w-full   h-auto" src="../img/bintur_header.jpg" alt="sea">
+
+      <div class="grid lg:grid-cols-5 grid-cols-1  bg-black   text-center p-12">
+        <span class="text-white text-2xl text-center flex justify-center items-center ">Where you want to go?</span>
+      <label class="border-none" >
+        <input type="text" id="name" placeholder="Where to go?" class="lg:w-60 w-full flex justify-start h-16 bg-black  text-gray-400 border-2  border-gray-300 rounded-md lg:mt-1 mt-10 text-center ">
+      </label>
+
+      <select class="lg:w-60 w-full p-2 bg-black text-gray-400 border-2 border-gray-300 rounded-md flex justify-center items-center  lg:mt-1 mt-10 h-16 ">
+        <option value="date">Date</option>
+      </select>
+
+      <select name="" id="name" class="lg:w-60 w-full p-2 bg-black text-gray-400 border-2   border-gray-300 rounded-md  lg:mt-1 mt-10 h-16 ">
+        <option value="travel">Travel  type</option>
+        <option value=" some">Some option</option>
+        <option value="another">Anoder option</option>
+      </select>
+      <button class="w-60 lg:w-40 h-12 p-8 flex items-center justify-center lg:-mt-2  bg-red-500 border-2 rounded-md text-white text-lg  mt-10 ">Search</button>
+      </div>
+    </section>
+
+
+    <section class="mt-28">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl">Popular Destination</h3>
+        <p class="text-xl mt-8 text-gray-400" >Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-16">
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000">
+          <div class="relative ">
+          <img class="rounded-3xl w-full h-auto" src="../img/img1.webp" alt="trawel-first">
+          <div class=" rounded-2xl   absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class=" md:hidden lg:inline relative -top-20 -left-36 text-2xl hover:text-red-500 text-white ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300 text-white  hover:bg-red-500  p-1.5 lg:px-6 rounded-3xl">07 Places</span>
+        </div>
+
+
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000">
+          <div class="relative ">
+          <img class="rounded-2xl w-full h-auto" src="../img/img2.webp" alt="trawel-first">
+          <div class=" rounded-2xl absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class=" md:hidden lg:inline relative -top-20 -left-36 text-3xl hover:text-red-500 text-white ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300 lg:px-6 p-1.5 text-white  hover:bg-red-500  rounded-3xl">07 Places</span>
+        </div>
+
+
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000" >
+          <div class="relative">
+          <img class="rounded-2xl w-full h-auto  transform transition-transform duration-200 hover:scale-105 active:-translate-y-1" src="../img/img3.webp" alt="trawel-first">
+          <div class="absolute rounded-2xl inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class=" md:hidden lg:inline relative -top-20 -left-36 text-3xl hover:text-red-500 text-white ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300 lg:px-6 p-1.5 text-white  hover:bg-red-500  rounded-3xl">07 Places</span>
+        </div>
+        
+
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000">
+          <div class="relative " >
+          <img class="rounded-2xl w-full h-auto" src="../img/img4.webp" alt="trawel-first">
+          <div class="absolute rounded-2xl inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class=" md:hidden lg:inline relative -top-20 -left-36 text-3xl hover:text-red-500 text-white ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300 lg:px-6 p-1.5 text-white  hover:bg-red-500  rounded-3xl">07 Places</span>
+        </div>
+        
+
+
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000" >
+          <div class="relative">
+          <img class="rounded-2xl w-full h-auto" src="../img/img5.webp" alt="trawel-first">
+          <div class="absolute rounded-2xl inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class=" md:hidden lg:inline  relative -top-20 -left-36 text-3xl hover:text-red-500 text-white ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300 lg:px-6 p-1.5 text-white  hover:bg-red-500  rounded-3xl">07 Places</span>
+        </div>
+        
+
+
+        <div class="hover:-translate-y-3 hover:ease-in-out  hover:duration-1000">
+          <div class="relative" >
+          <img class="rounded-2xl w-full h-auto" src="../img/6.png.webp" alt="trawel-first">
+          <div class="absolute rounded-2xl inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-55"></div>
+        </div>
+        <span class="md:hidden lg:inline relative -top-20 -left-36 text-3xl hover:text-red-500 text-white  ">italy</span>
+        <span class="relative -top-20 -left-32 text-lg bg-green-300  text-white  hover:bg-red-500 p-1.5 px-6  rounded-3xl">07 Places</span>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main> 
+</body>
+</html>
+
+
+
